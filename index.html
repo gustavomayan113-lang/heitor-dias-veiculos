@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heitor Dias Veículos | Seminovos em Salvador</title>
+<meta name="description" content="Venda, financiamento, troca e compra de veículos seminovos. Heitor Dias Veículos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+  <div class="container nav">
+    <a href="#" class="logo">HEITOR <span>DIAS</span><small>VEÍCULOS</small></a>
+    <button class="menu-btn" aria-label="Menu">☰</button>
+    <nav class="menu">
+      <a href="#estoque">Estoque</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-txt">
+    <p class="tag">Venda • Financiamento • Troca • Compra</p>
+    <h1>Seu próximo <span>seminovo</span> está aqui</h1>
+    <p>Carros revisados, com procedência e as melhores condições de pagamento.</p>
+    <div class="hero-btns">
+      <a href="#estoque" class="btn btn-red">Ver estoque</a>
+      <a href="#" class="btn btn-outline js-zap" data-msg="Olá! Vim pelo site e gostaria de mais informações.">Falar no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<div class="faixa">
+  <div class="container faixa-in">
+    <span>(71) 3179-5507</span><span>(71) 4103-5354</span><span>@heitordiasveiculos</span>
+  </div>
+</div>
+
+<section id="estoque" class="sec">
+  <div class="container">
+    <h2 class="titulo">Nosso <span>estoque</span></h2>
+    <div class="filtros">
+      <button class="filtro ativo" data-f="todos">Todos</button>
+      <button class="filtro" data-f="hatch">Hatch</button>
+      <button class="filtro" data-f="utilitario">Utilitário</button>
+      <button class="filtro" data-f="sedan">Sedan</button>
+    </div>
+    <div id="grid" class="grid"></div>
+  </div>
+</section>
+
+<section id="servicos" class="sec sec-dark">
+  <div class="container">
+    <h2 class="titulo">O que <span>fazemos</span></h2>
+    <div class="servicos">
+      <div class="serv"><b>01</b><h3>Venda</h3><p>Seminovos selecionados e revisados.</p></div>
+      <div class="serv"><b>02</b><h3>Financiamento</h3><p>Aprovação rápida com os principais bancos.</p></div>
+      <div class="serv"><b>03</b><h3>Troca</h3><p>Seu usado vale como entrada.</p></div>
+      <div class="serv"><b>04</b><h3>Compra</h3><p>Compramos seu carro com avaliação justa.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="sec">
+  <div class="container contato">
+    <div>
+      <h2 class="titulo">Venha nos <span>visitar</span></h2>
+      <p>Via Expressa Baía de Todos os Santos – Baixa de Quintas, Salvador - BA</p>
+      <p>Telefones: (71) 3179-5507 • (71) 4103-5354</p>
+      <p>Instagram: <a href="https://instagram.com/heitordiasveiculos" target="_blank">@heitordiasveiculos</a></p>
+      <a href="#" class="btn btn-red js-zap" data-msg="Olá! Gostaria de agendar uma visita.">Chamar no WhatsApp</a>
+    </div>
+    <iframe title="Mapa" loading="lazy" src="https://www.google.com/maps?q=Baixa+de+Quintas+Salvador+BA&output=embed"></iframe>
+  </div>
+</section>
+
+<footer class="rodape">© <span id="ano"></span> Heitor Dias Veículos</footer>
+
+<a href="#" class="zap-float js-zap" data-msg="Olá! Vim pelo site da Heitor Dias Veículos." aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" width="30" height="30"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.9 1 3.9.8a3.3 3.3 0 0 0 2.2-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+HEITOR DIAS VEICULOS - SITE
+===========================
+
+Como abrir no computador:
+1. Descompacte este arquivo.
+2. Abra a pasta "heitor-dias-veiculos".
+3. Dê dois cliques em "index.html" para ver o site no navegador.
+
+Arquivos:
+- index.html  = as paginas do site
+- style.css   = as cores e o visual (preto, vermelho e branco)
+- script.js   = os filtros do estoque e os botoes de WhatsApp
+- img/        = as fotos usadas no site
+
+Para colocar no ar: envie a pasta inteira para qualquer hospedagem
+e apontem para o index.html.
+
+Antes de publicar, confira:
+- o numero de WhatsApp em script.js e index.html
+- os carros, precos e fotos do estoque
